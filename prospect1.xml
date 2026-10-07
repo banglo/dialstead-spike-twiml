@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Gather input="speech" timeout="12" action="https://raw.githubusercontent.com/banglo/dialstead-spike-twiml/main/prospect2.xml" method="POST"/>
+  <Gather input="speech" timeout="12" action="https://cdn.jsdelivr.net/gh/banglo/dialstead-spike-twiml@main/prospect2.xml" method="POST"/>
   <Say voice="Polly.Matthew">Hello? Is anyone there?</Say>
   <Hangup/>
 </Response>

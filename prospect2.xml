@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Say voice="Polly.Matthew">We do miss after-hours calls at the firm. How does your service work?</Say>
-  <Gather input="speech" timeout="14" action="https://raw.githubusercontent.com/banglo/dialstead-spike-twiml/main/prospect3.xml" method="POST"/>
+  <Gather input="speech" timeout="14" action="https://cdn.jsdelivr.net/gh/banglo/dialstead-spike-twiml@main/prospect3.xml" method="POST"/>
   <Say voice="Polly.Matthew">I need to run. Goodbye.</Say>
   <Hangup/>
 </Response>
