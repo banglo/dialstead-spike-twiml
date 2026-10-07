@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say voice="Polly.Matthew">Okay, that sounds useful. Text me the details and I will review them. Thanks, bye.</Say>
+  <Hangup/>
+</Response>
